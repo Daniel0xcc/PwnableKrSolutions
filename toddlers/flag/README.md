@@ -16,4 +16,4 @@ If we will drop `flag` in to a diassembler like Ida, everything is gonna be cryp
 
 > `$ upx -d flag`
 
-This command will decompress the binary and unpack it. Then we can load the binary to IDA and we will see the functions which allocates & strcpy's the flag, then the flag which gonna be inside the `.data` section of the binary. 
+This command will decompress the binary and unpack it. Then we can load the binary to IDA and we will see the functions which allocates & strcpy's the flag, then the flag gonna be inside the `.data` section of the binary. 
